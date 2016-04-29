@@ -17,8 +17,8 @@ foreach ($info as $v) {
     }
 }
 
-$action = "action_";
-$action .= (isset($params[1])) ? $params : 'index';
+$action = "action";
+$action .= (isset($params[1])) ? $params : 'Index';
 
 
 

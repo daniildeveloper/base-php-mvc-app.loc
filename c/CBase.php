@@ -2,6 +2,9 @@
 
 namespace app\c;
 
+/**
+ * Class CBase
+ */
 abstract class CBase extends CController {
 
     /**

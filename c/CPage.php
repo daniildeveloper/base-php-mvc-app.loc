@@ -16,6 +16,18 @@ class CPage extends CBase {
         if ($url == '') {
             $url = 'home';
         }
+
+        $page = \app\m\MPages::instance()->getByUrl($url);
+
+        if (empty($page)) {
+
+        }
+    }
+
+
+    public function action404() {
+        $this->title .= "->404";
+        $this->content = $this->template('v/v_404.php');
     }
 
 }

@@ -16,3 +16,7 @@ define("HOST", "localhost");
 define("DBNAME", "cms");
 define("USER", "root");
 define("PASSWORD", "");
+
+//media
+define("JS_DIR", "media/js/");
+define("CSS_DIR", "media/css");
